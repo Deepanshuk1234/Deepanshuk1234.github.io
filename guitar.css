@@ -10,10 +10,10 @@
 {
 	background-color: red;
 }
-/*#selec
+p
 {
-	font-size: 32em;
-}*/
+	font-size: 20px;
+}
 
 #leftDiv
 {
@@ -48,9 +48,12 @@
 	#rightDiv
 	{
 		width:100%;
+
 	}	
 	#leftDiv
 	{
+		margin-top: 500px;
 		width:100%;
+		position: fixed;
 	}
 }
