@@ -1,12 +1,56 @@
-.haha
+.p1, .p2, .p3, .p4, .p5, .p6
 {
-	padding: 1%;
-}
-p
-{
+	width:80%;
+	margin-left: 10%;
+	margin-top: 10px;
+	height: 100px !important;
 	background-color: cyan;
 }
 .hehe1, .hehe2, .hehe3, .hehe4, .hehe5, .hehe6
 {
 	background-color: red;
+}
+/*#selec
+{
+	font-size: 32em;
+}*/
+
+#leftDiv
+{
+	width:75%;
+	float: left;
+}
+#rightDiv
+{
+	width:25%;
+	float: right;
+}
+
+@media only screen and (max-width : 992px)
+{
+	.p1, .p2, .p3, .p4, .p5, .p6
+	{
+		width:80%;
+		margin-left: 10%;
+		margin-top: 10px;
+		height: 250px !important;
+		background-color: cyan;
+	}
+	.hehe1, .hehe2, .hehe3, .hehe4, .hehe5, .hehe6
+	{
+		background-color: red;
+	}
+	/*#selec
+	{
+		size:150px;
+		color :blue;
+	}*/
+	#rightDiv
+	{
+		width:100%;
+	}	
+	#leftDiv
+	{
+		width:100%;
+	}
 }
