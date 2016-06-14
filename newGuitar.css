@@ -1,0 +1,359 @@
+#mainDiv
+{
+	width:100%;
+	height:400px;
+	margin-top: 100px;
+	overflow: auto;
+	position: absolute;
+}
+
+#board
+{
+	margin-top: 100px;
+	float:left;
+	height:200px !important;
+	background-color: #854442;
+	width:80%;
+	position: absolute;
+	z-index: -1;
+}
+#line
+{
+	margin-top: 100px;
+	float: left;
+	height:200px !important;
+	width:1%;
+	margin-left: 80%;
+	background-color: #e3ecbf;
+	position: absolute;
+}
+#head
+{
+	margin-top: 100px;
+	float:left;
+	height:200px;
+	width: 20%;
+	margin-left: 80%;
+	background-color: #854442;
+	z-index: -1;
+}
+#triangle-bottomright {
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid #854442;
+	border-left: 70px solid transparent;
+	/*margin-left:1052px;*/
+	margin-left: 81%;
+	margin-top: 50px; 
+}
+#t1
+{
+	margin-top: -50px;
+	margin-left:86.25%;
+	/*width:8.75%;*/
+	width: 13.75%;
+	height:50px;
+	background-color: #854442;
+}
+#triangle-topright {
+	margin-top: 200px;
+	margin-left: 81%;
+	width: 0;
+	height: 0;
+	border-top: 50px solid #854442;
+	border-left: 70px solid transparent;
+
+}
+#t2
+{
+	margin-top: -50px;
+	margin-left:86.25%;
+	width:13.75%;
+	height:50px;
+	background-color: #854442;
+}
+#semiElp 
+{
+    background-color: #854442;
+    width: 8%;
+    height: 300px;
+    border-radius: 100% / 50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 100%;
+    margin-top: -300px;
+
+}
+#cir1
+{
+	background-color: yellow;
+	border-radius: 100%;
+	width:40px;
+	height:40px;
+	margin-top: -275px;
+	margin-left: 88%;
+	position: absolute;
+	z-index: 123;
+}
+#cir2
+{
+	background-color: yellow;
+	border-radius: 100%;
+	width:40px;
+	height:40px;
+	margin-top: -255px;
+	margin-left: 93%;
+	position: absolute;
+	z-index: 123;
+}
+#cir3
+{
+	background-color: yellow;
+	border-radius: 100%;
+	width:40px;
+	height:40px;
+	margin-top: -235px;
+	margin-left: 98%;
+	position: absolute;
+	z-index: 123;
+}
+#cir4
+{
+	background-color: yellow;
+	border-radius: 100%;
+	width:40px;
+	height:40px;
+	margin-top: -66px;
+	margin-left: 88%;
+	position: absolute;
+	z-index: 123;
+}
+#cir5
+{
+	background-color: yellow;
+	border-radius: 100%;
+	width:40px;
+	height:40px;
+	margin-top: -91px;
+	margin-left: 93%;
+	position: absolute;
+	z-index: 123;
+}
+#cir6
+{
+	background-color: yellow;
+	border-radius: 100%;
+	width:40px;
+	height:40px;
+	margin-top: -111px;
+	margin-left: 98%;
+	position: absolute;
+	z-index: 123;
+}
+#bcir1
+{
+	background-color: red;
+	border-radius: 100%;
+	width:50px;
+	height:50px;
+	margin-top: -280px;
+	margin-left: 87.75%;
+	position: absolute;
+	z-index: 100;
+}
+#bcir2
+{
+	background-color: red;
+	border-radius: 100%;
+	width:50px;
+	height:50px;
+	margin-top: -260px;
+	margin-left: 92.70%;
+	position: absolute;
+	z-index: 100;
+}
+#bcir3
+{
+	background-color: red;
+	border-radius: 100%;
+	width:50px;
+	height:50px;
+	margin-top: -240px;
+	margin-left: 97.75%;
+	position: absolute;
+	z-index: 100;
+}
+#bcir4
+{
+	background-color: red;
+	border-radius: 100%;
+	width:50px;
+	height:50px;
+	margin-top: -70px;
+	margin-left: 87.75%;
+	position: absolute;
+	z-index: 100;
+}
+#bcir5
+{
+	background-color: red;
+	border-radius: 100%;
+	width:50px;
+	height:50px;
+	margin-top: -95px;
+	margin-left: 92.75%;
+	position: absolute;
+	z-index: 100;
+}
+#bcir6
+{
+	background-color: red;
+	border-radius: 100%;
+	width:50px;
+	height:50px;
+	margin-top: -115px;
+	margin-left: 97.75%;
+	position: absolute;
+	z-index: 100;
+}
+#fret1, #fret2, #fret3, #fret4, #fret5, #fret6, #fret7, #fret8
+{
+	position: absolute;
+	z-index: 50;
+	height:200px;
+	width: 1%;
+	margin-top: -250px;
+	background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #454343 , #b9b8b8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #454343 , #b9b8b8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #454343 , #b9b8b8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #454343  , #b9b8b8); /* Standard syntax (must be last) */
+}
+#fret1
+{
+	margin-left: 70%;
+}
+#fret2
+{
+	margin-left: 60%;
+}
+#fret3
+{
+	margin-left: 50.5%;
+}
+#fret4
+{
+	margin-left: 41.5%;
+}
+#fret5
+{
+	margin-left: 33%;
+}
+#fret6
+{
+	margin-left: 25%;
+}
+#fret7
+{
+	margin-left: 17.5%;
+}
+#fret8
+{
+	margin-left: 10.5%;
+}
+
+#strng1, #strng2, #strng3, #strng4, #strng5, #strng6 
+{
+	position: absolute;
+	z-index: 60;
+	height: 4px;
+	background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#454343, #b9b8b8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#454343, #b9b8b8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#454343, #b9b8b8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#454343, #b9b8b8); /* Standard syntax */
+}
+#strng1
+{
+	margin-top: -60px;
+	width: 80%;
+}
+#strng2
+{
+	margin-top: -96px;
+	width: 80%;
+}
+#strng3
+{
+	margin-top: -132px;
+	width: 80%;
+}
+#strng4
+{
+	margin-top: -168px;
+	width: 80%;
+}
+#strng5
+{
+	margin-top: -204px;
+	width: 80%;
+}
+#strng6
+{
+	margin-top: -240px;
+	width: 80%;
+}
+#smallStrng1, #smallStrng2, #smallStrng3, #smallStrng4, #smallStrng5, #smallStrng6
+{
+	position: absolute;
+	z-index: 110;
+	height: 4px;
+	background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#454343, #b9b8b8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#454343, #b9b8b8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#454343, #b9b8b8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#454343, #b9b8b8); /* Standard syntax */
+    margin-left: 80%;
+}
+#smallStrng1
+{
+	width: 10%;
+    margin-top: -240px;
+    transform: rotate(-5deg);
+    transform-origin: 0% 0%;
+}
+#smallStrng2
+{
+	width: 15%;
+    margin-top: -204px;
+    transform: rotate(-7deg);
+    transform-origin: 0% 0%;
+}
+#smallStrng3
+{
+	width: 20%;
+    margin-top: -168px;
+    transform: rotate(-8deg);
+    transform-origin: 0% 0%;
+}
+#smallStrng4
+{
+	width: 20%;
+    margin-top: -132px;
+    transform: rotate(8deg);
+    transform-origin: 0% 0%;
+}
+#smallStrng5
+{
+	width: 15%;
+    margin-top: -96px;
+    transform: rotate(7deg);
+    transform-origin: 0% 0%;
+}
+#smallStrng6
+{
+	width: 10%;
+    margin-top: -60px;
+    transform: rotate(5deg);
+    transform-origin: 0% 0%;
+}
