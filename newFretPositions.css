@@ -1,0 +1,91 @@
+.c01, .c11, .c21, .c31, .c41, .c51
+{
+	margin-top: -248px;
+}
+.c02, .c12, .c22, .c32, .c42, .c52
+{
+	margin-top: -212px;
+}
+.c03, .c13, .c23, .c33, .c43, .c53
+{
+	margin-top: -176px;
+}
+.c04, .c14, .c24, .c34, .c44, .c54
+{
+	margin-top: -140px;
+}
+.c05, .c15, .c25, .c35, .c45, .c55
+{
+	margin-top: -104px;
+}
+.c06, .c16, .c26, .c36, .c46, .c56
+{
+	margin-top: -68px;
+}
+
+
+.c01, .c02, .c03, .c04, .c05, .c06
+{
+	width:20px;
+	height:20px;
+	background-color: red;
+	position: absolute;
+	z-index: 1000;
+	border-radius: 25%;
+	margin-left: 80%;
+}
+.c11, .c12, .c13, .c14, .c15, .c16
+{
+	width:8%;
+	height:20px;
+	background-color: red;
+	position: absolute;
+	z-index: 1000;
+	border-radius: 25%;
+	margin-left: 70%;
+}
+.c21, .c22, .c23, .c24, .c25, .c26
+{
+	width:8%;
+	height:20px;
+	background-color: red;
+	position: absolute;
+	z-index: 1000;
+	border-radius: 25%;
+	margin-left: 60%;
+}
+.c31, .c32, .c33, .c34, .c35, .c36
+{
+	width:8%;
+	height:20px;
+	background-color: red;
+	position: absolute;
+	z-index: 1000;
+	border-radius: 25%;
+	margin-left: 50.5%;
+}
+.c41, .c42, .c43, .c44, .c45, .c46
+{
+	width:8%;
+	height:20px;
+	background-color: red;
+	position: absolute;
+	z-index: 1000;
+	border-radius: 25%;
+	margin-left: 41.5%;
+}
+.c51, .c52, .c53, .c54, .c55, .c56
+{
+	width:8%;
+	height:20px;
+	background-color: red;
+	position: absolute;
+	z-index: 1000;
+	border-radius: 25%;
+	margin-left: 33%;
+}
+
+.hehe1, .hehe2, .hehe3, .hehe4, .hehe5, .hehe6
+{
+	background-color: green;
+}
