@@ -89,3 +89,44 @@
 {
 	background-color: green;
 }
+
+.capo1, .capo2, .capo3, .capo4, .capo5, .capo0
+{
+	float: left;
+	height: 20px;
+	width: 20px;
+	margin-top: 0px;
+	background-color: grey;
+}
+
+
+.capo5
+{
+	margin-left: 33%;
+}
+.capo4
+{
+	margin-left: 8%;
+}
+.capo3
+{
+	margin-left: 8.5%;
+}
+.capo2
+{
+	margin-left: 9%;
+}
+.capo1
+{
+	margin-left: 9.5%;
+}
+.capo0
+{
+	margin-left: 5%;
+}
+
+.capoBlue
+{
+	background-color: blue;
+}
+

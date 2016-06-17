@@ -21,6 +21,11 @@ $(document).ready(function(){
 		{
 			$("#selec").html("<h1>Its D-major<br></h1>");
 		}
+		if($(".hehe1").hasClass("c11") && $(".hehe2").hasClass("c32") && $(".hehe3").hasClass("c33") && 
+		   $(".hehe4").hasClass("c24") && $(".hehe5").hasClass("c15") && $(".hehe6").hasClass("c16") )
+		{
+			$("#selec").html("<h1>Its F-major<br></h1>");
+		}
 				
 	});
 });

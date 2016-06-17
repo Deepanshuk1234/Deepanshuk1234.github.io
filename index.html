@@ -6,72 +6,84 @@
 	<link rel="stylesheet" type="text/css" href="newGuitar.css">
 	<link rel="stylesheet" type="text/css" href="newFretPositions.css">
 	<script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+	<!-- <script type="text/javascript" src="jquery-3.0.0.min.js"></script> -->
 	<script type="text/javascript" src="guitarFretboard.js"></script>
 	<script type="text/javascript" src="guitarChords.js"></script>
 	<script type="text/javascript" src="guitarAllNotes.js"></script>
 </head>
 <body>
+<div class="container">
+	<div id="mainDiv">
+		<div id="board"></div>
 
-<div id="mainDiv">
-	<div id="board"></div>
+		<div id="line"></div>
 
-	<div id="line"></div>
+		<div id="head"></div>
 
-	<div id="head"></div>
+		<div id="triangle-bottomright"></div>
+		<!-- <div class="tbr"></div> -->
 
-	<div id="triangle-bottomright"></div>
+		<div id="t1"></div>
 
-	<div id="t1"></div>
+		<div id="triangle-topright"></div>
 
-	<div id="triangle-topright"></div>
+		<div id="t2"></div>
 
-	<div id="t2"></div>
+		<div id="semiElp"></div>
 
-	<div id="semiElp"></div>
+		<div id="cir1"></div><div id="cir2"></div><div id="cir3"></div><div id="cir4"></div><div id="cir5"></div><div id="cir6"></div>
 
-	<div id="cir1"></div><div id="cir2"></div><div id="cir3"></div><div id="cir4"></div><div id="cir5"></div><div id="cir6"></div>
+		<div id="bcir1"></div><div id="bcir2"></div><div id="bcir3"></div><div id="bcir4"></div><div id="bcir5"></div><div id="bcir6"></div>
+		
+		<div id="fret1"></div><div id="fret2"></div><div id="fret3"></div><div id="fret4"></div>
+		<div id="fret5"></div><div id="fret6"></div><div id="fret7"></div><div id="fret8"></div>
 
-	<div id="bcir1"></div><div id="bcir2"></div><div id="bcir3"></div><div id="bcir4"></div><div id="bcir5"></div><div id="bcir6"></div>
-	
-	<div id="fret1"></div><div id="fret2"></div><div id="fret3"></div><div id="fret4"></div>
-	<div id="fret5"></div><div id="fret6"></div><div id="fret7"></div><div id="fret8"></div>
+		<div id="strng1"></div><div id="strng2"></div><div id="strng3"></div>
+		<div id="strng4"></div><div id="strng5"></div><div id="strng6"></div>
 
-	<div id="strng1"></div><div id="strng2"></div><div id="strng3"></div>
-	<div id="strng4"></div><div id="strng5"></div><div id="strng6"></div>
+		<div id="smallStrng1"></div><div id="smallStrng2"></div><div id="smallStrng3"></div>
+		<div id="smallStrng4"></div><div id="smallStrng5"></div><div id="smallStrng6"></div>
 
-	<div id="smallStrng1"></div><div id="smallStrng2"></div><div id="smallStrng3"></div>
-	<div id="smallStrng4"></div><div id="smallStrng5"></div><div id="smallStrng6"></div>
+		<!-- Frets begin here -->
 
+		<div class="p1 c01"></div><div class="p2 c02"></div><div class="p3 c03"></div>
+		<div class="p4 c04"></div><div class="p5 c05"></div><div class="p6 c06"></div>
 
+		<div class="p1 c11"></div><div class="p2 c12"></div><div class="p3 c13"></div>
+		<div class="p4 c14"></div><div class="p5 c15"></div><div class="p6 c16"></div>
 
-	<!-- Frets begin here -->
+		<div class="p1 c21"></div><div class="p2 c22"></div><div class="p3 c23"></div>
+		<div class="p4 c24"></div><div class="p5 c25"></div><div class="p6 c26"></div>
 
-	<div class="p1 c01"></div><div class="p2 c02"></div><div class="p3 c03"></div>
-	<div class="p4 c04"></div><div class="p5 c05"></div><div class="p6 c06"></div>
+		<div class="p1 c31"></div><div class="p2 c32"></div><div class="p3 c33"></div>
+		<div class="p4 c34"></div><div class="p5 c35"></div><div class="p6 c36"></div>
 
-	<div class="p1 c11"></div><div class="p2 c12"></div><div class="p3 c13"></div>
-	<div class="p4 c14"></div><div class="p5 c15"></div><div class="p6 c16"></div>
+		<div class="p1 c41"></div><div class="p2 c42"></div><div class="p3 c43"></div>
+		<div class="p4 c44"></div><div class="p5 c45"></div><div class="p6 c46"></div>
 
-	<div class="p1 c21"></div><div class="p2 c22"></div><div class="p3 c23"></div>
-	<div class="p4 c24"></div><div class="p5 c25"></div><div class="p6 c26"></div>
-
-	<div class="p1 c31"></div><div class="p2 c32"></div><div class="p3 c33"></div>
-	<div class="p4 c34"></div><div class="p5 c35"></div><div class="p6 c36"></div>
-
-	<div class="p1 c41"></div><div class="p2 c42"></div><div class="p3 c43"></div>
-	<div class="p4 c44"></div><div class="p5 c45"></div><div class="p6 c46"></div>
-
-	<div class="p1 c51"></div><div class="p2 c52"></div><div class="p3 c53"></div>
-	<div class="p4 c54"></div><div class="p5 c55"></div><div class="p6 c56"></div>
-
+		<div class="p1 c51"></div><div class="p2 c52"></div><div class="p3 c53"></div>
+		<div class="p4 c54"></div><div class="p5 c55"></div><div class="p6 c56"></div>
 
 
+		<!-- Capo position -->
+		<div class="capo5 cap"></div>
+		<div class="capo4 cap"></div>
+		<div class="capo3 cap"></div>
+		<div class="capo2 cap"></div>
+		<div class="capo1 cap"></div>
+		<div class="capo0 cap"></div>
+		
 
+
+		
+
+	</div>
+
+	<div id="selec" class="center">
+		<h1>Click on this virtual fretboard and find out if a chord exists.</h1>
+	</div>
 </div>
-
-<div id="selec" class="center">
-	<h1>Click on this virtual fretboard and find out if a chord exists.</h1>
-</div>
+<!-- <div id="triangle-bottomright"></div> -->
 
 </body>
 </html>
