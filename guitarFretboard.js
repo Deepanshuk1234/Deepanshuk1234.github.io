@@ -1,4 +1,28 @@
+function warn1(){
+	$("#warning").empty();
+	$("#warning").addClass("warnRed");
+	$("#warning").append("<strong><h1>Plug in your headphones. You have 3 second</h1></strong>");
+}
+function warn2(){
+	$("#warning").empty();
+	$("#warning").addClass("warnRed");
+	$("#warning").append("<strong><h1>Plug in your headphones. You have 2 second</h1></strong>");
+}
+function warn3(){
+	$("#warning").empty();
+	$("#warning").addClass("warnRed");
+	$("#warning").append("<strong><h1>Plug in your headphones. You have 1 second</h1></strong>");
+}
+function warn4(){
+	$("#warning").empty();
+	// $("#warning").append("<br><h1>Connect in 3 seconds</h1>");
+}
 $(document).ready(function(){
+	
+	setTimeout("warn1()",1000);
+	setTimeout("warn2()",2000);
+	setTimeout("warn3()",3000);
+	setTimeout("warn4()",4000);
 
 	$(".p1").click(function(){
 		$(".hehe1").removeClass("hehe1");

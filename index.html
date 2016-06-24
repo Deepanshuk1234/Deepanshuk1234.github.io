@@ -5,13 +5,24 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="newGuitar.css">
 	<link rel="stylesheet" type="text/css" href="newFretPositions.css">
-	<script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
-	<!-- <script type="text/javascript" src="jquery-3.0.0.min.js"></script> -->
+	<!-- <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script> -->
+	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
 	<script type="text/javascript" src="guitarFretboard.js"></script>
 	<script type="text/javascript" src="guitarChords.js"></script>
 	<script type="text/javascript" src="guitarAllNotes.js"></script>
+	
+	<script type="text/javascript">
+		function Func1() {
+			document.getElementById('audioo').play();
+		}
+
+		function Func1Delay() {
+			setTimeout("Func1()", 3000);
+		}
+	</script>
+	
 </head>
-<body>
+<body onload = "Func1Delay()">
 <div class="container" id="motherOfDivs">
 	<div id="mainDiv">
 		<div id="board"></div>
@@ -83,10 +94,12 @@
 		<h1>Click on this virtual fretboard and find out if a chord exists.</h1>
 	</div>
 </div>
-<audio autoplay>
+<audio loop id="audioo">
 	<source src="hahahaha.mp3" type="audio/mpeg">
 	This browser sucks.
 </audio>
-
+<div id="warning">
+	<!-- Connect your headphones in  -->
+</div>
 </body>
 </html>
