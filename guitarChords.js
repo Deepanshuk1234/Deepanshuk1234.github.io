@@ -31,19 +31,19 @@ $(document).ready(function(){
 		{
 			$("#selec").html("<h1>Its E-major<br></h1>");
 		}
-		
+		/*
 		if($(".hehe1").hasClass("c01") && $(".hehe2").hasClass("c02") && $(".hehe3").hasClass("c03") && 
 		   $(".hehe4").hasClass("c24") && $(".hehe5").hasClass("c35") && $(".hehe6").hasClass("c16") )
 		{
 			$("#selec").html("<h1>Its D-minor<br></h1>");
 		}
-		/*
+		*/
 		if($(".hehe1").hasClass("c31") && $(".hehe2").hasClass("c22") && $(".hehe3").hasClass("c03") && 
 		   $(".hehe4").hasClass("c04") && $(".hehe5").hasClass("c35") && $(".hehe6").hasClass("c36") )
 		{
 			$("#selec").html("<h1>Its G-major<br></h1>");
 		}
-		
+		/*
 		if($(".hehe1").hasClass("c01") && $(".hehe2").hasClass("c32") && $(".hehe3").hasClass("c23") && 
 		   $(".hehe4").hasClass("c04") && $(".hehe5").hasClass("c35") && $(".hehe6").hasClass("c36") )
 		{
